@@ -3,7 +3,7 @@
 PERSON1=guru
 PERSON2=prasad
 
-echo "hello $PERSON1, how are you"
-echo "hi, this is $PERSON2, i am doing good. Thanks afor asking"
-echo " what is going on $PERSON1"
-echo "i am learning devops $PERSON2"
+echo "$PERSON1:: Hi ${PERSON2}, How are you?"
+echo "${PERSON2}:: Hello $PERSON1. I am fine. How are you doing?"
+echo "$PERSON1:: I am doing good ${PERSON2}. What's going on?"
+echo "${PERSON2}:: I started learning Shell Script $PERSON1"

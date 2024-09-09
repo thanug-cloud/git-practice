@@ -5,10 +5,6 @@
  
 if [$USERID -ne 0]
 then
-     echo "User does not have root priviliges" 
-     exit 1 
-  eelif [$USERID -eq 0]
-  then
-   echo "Currently logged in as: $(whoami)..proceeding further"
+   echo "Currently logged in as: $(whoami).. not proceeding further"
    
 fi

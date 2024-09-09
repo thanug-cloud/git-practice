@@ -1,5 +1,5 @@
 #!/bin/bash
-NUMBER=50
+NUMBER=$1
 
 if [$NUMBER -gt 50]
 then

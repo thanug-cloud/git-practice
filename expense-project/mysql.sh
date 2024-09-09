@@ -5,6 +5,6 @@
  
 if [$USERID -ne 0]
 then
-   echo "Currently logged in as: $(whoami).. not proceeding further"
+   echo "Currently logged in as: $(whoami)"
    
 fi

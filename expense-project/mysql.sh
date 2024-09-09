@@ -3,9 +3,8 @@
  USERID=$(id -u)
  #echo "user ID is: $USERID"
  
-
 if [$USERID -ne 0]
-   then
+then
      echo "User does not have root priviliges" 
 else
    echo "Currently logged in as: $(whoami)"
